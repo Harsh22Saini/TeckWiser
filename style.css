@@ -1,0 +1,54 @@
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: medium;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+  }
+
+  .lead {
+    font-size: small;
+    margin-bottom: 20px;
+    
+    
+
+  }
+
+  .col-md-7 {
+    width: 180px;
+  }
+
+  .col-md-5 {
+    width: 100px;
+  }
+
+  .row {
+    margin-bottom: 10px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
+  }
+
+  .reverse {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+
+  img {
+    clip-path: circle(50% at 50% 50%);
+  }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 780px) {
+  .row {
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+
+  }
+}
